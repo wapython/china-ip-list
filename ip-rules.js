@@ -1,6 +1,6 @@
 // 自动生成，请勿手动编辑
 // 数据来源：https://raw.githubusercontent.com/mayaxcn/china-ip-list/master/chnroute.txt
-// 更新时间：2026-08-30T00:59:58.798983
+// 更新时间：2026-08-30T06:29:17.156405
 
 const directIPs = [
     "1.0.1.0/24",
