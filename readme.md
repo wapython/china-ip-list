@@ -172,4 +172,3 @@ A: 在 Clash 日志中查看规则匹配情况，或使用 `curl` 访问国内�
 - 数据源：[mayaxcn/china-ip-list](https://github.com/mayaxcn/china-ip-list)
 - 加速镜像：[jsDelivr](https://www.jsdelivr.com/) 及其国内镜像站
 - Clash 社区提供的脚本和覆写机制
-```
