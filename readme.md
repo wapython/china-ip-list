@@ -6,6 +6,8 @@
 
 本项目通过 GitHub Actions **每小时**自动拉取 [chnroute.txt](https://raw.githubusercontent.com/mayaxcn/china-ip-list/master/chnroute.txt) 中的中国 IP 段，生成一个可直接用于 Clash 覆写（Override）或脚本（Script）模式的 JavaScript 规则文件 `ip-rules.js`，让你始终拥有最新的国内 IP 直连规则。
 
+**参考项目**：https://github.com/mayaxcn/china-ip-list
+
 ## ✨ 特性
 
 - ⏱️ **每小时自动更新** – 始终保持最新 IP 段
