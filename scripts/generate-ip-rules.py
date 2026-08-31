@@ -9,7 +9,8 @@ import os
 from datetime import datetime
 
 URL = "https://raw.githubusercontent.com/mayaxcn/china-ip-list/master/chnroute.txt"
-ORIGIN = "https://github.com/mayaxcn/china-ip-list"
+CURRENT_URL = "https://github.com/wapython/china-ip-list"
+ORIGIN_URL = "https://github.com/mayaxcn/china-ip-list"
 OUTPUT_FILE = "ip-rules.js"
 
 def fetch_cidrs():
@@ -27,8 +28,8 @@ def generate_content(cidrs):
     lines = [f'    "{cidr}"' for cidr in cidrs]
     return f"""// 自动生成，请勿手动编辑
 // 数据来源：{URL}
-// 当前项目：https://github.com/wapython/china-ip-list
-// 原始项目：https://github.com/mayaxcn/china-ip-list
+// 当前项目：{CURRENT_URL}
+// 原始项目：{ORIGIN_URL}
 // 更新时间：{timestamp}
 
 const directIPs = [
