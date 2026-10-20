@@ -2,7 +2,7 @@
 // 数据来源：https://raw.githubusercontent.com/mayaxcn/china-ip-list/master/chnroute.txt
 // 当前项目：https://github.com/wapython/china-ip-list
 // 原始项目：https://github.com/mayaxcn/china-ip-list
-// 更新时间：2026-10-20T18:17:41.992970
+// 更新时间：2026-10-20T22:03:03.522741
 
 const directIPs = [
     "1.0.1.0/24",
@@ -1100,6 +1100,7 @@ const directIPs = [
     "45.117.68.0/22",
     "45.117.124.0/22",
     "45.117.252.0/22",
+    "45.119.42.0/23",
     "45.119.52.0/22",
     "45.119.60.0/22",
     "45.119.64.0/22",
